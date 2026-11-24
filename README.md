@@ -2,7 +2,7 @@
   <img src="assets/banner.svg" alt="BlueCatsz" width="100%" />
 </p>
 
-Hey, I'm Blue, a Linux user running CachyOS (KDE Plasma). Not a programmer by trade, mostly just tinkering with tools for stuff I play or run, and occasionally learning along the way.
+Hey, I'm Blue, Running Linux running CachyOS (KDE Plasma). Not a programmer, mostly just tinkering with tools for stuff I play or run, and occasionally learning along the way.
 
 ### Projects
 
