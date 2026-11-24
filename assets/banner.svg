@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 184" width="880" height="184" role="img" aria-label="BlueCatsz — Linux &amp; Proton Tooling, Focused Open-Source Fixes">
+  <defs>
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111216" />
+      <stop offset="100%" stop-color="#16181D" />
+    </linearGradient>
+    <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0090FF" />
+      <stop offset="65%" stop-color="#43CDBD" />
+      <stop offset="100%" stop-color="#5F7DCD" stop-opacity="0.2" />
+    </linearGradient>
+    <pattern id="dot-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#383B47" fill-opacity="0.35" />
+    </pattern>
+  </defs>
+
+  <!-- Card Background -->
+  <rect x="1" y="1" width="878" height="182" rx="12" fill="url(#bg-grad)" stroke="#383B47" stroke-width="1.5" />
+  <rect x="2" y="2" width="876" height="180" rx="11" fill="url(#dot-grid)" />
+
+  <!-- Subtle Right Geometric Accent -->
+  <path d="M 650 18 L 848 18 L 848 166" fill="none" stroke="#0090FF" stroke-opacity="0.16" stroke-width="1.5" />
+  <path d="M 700 34 L 832 34 L 832 150" fill="none" stroke="#43CDBD" stroke-opacity="0.14" stroke-width="1" />
+  <circle cx="848" cy="18" r="3" fill="#0090FF" fill-opacity="0.6" />
+  <circle cx="832" cy="34" r="2.5" fill="#43CDBD" fill-opacity="0.6" />
+
+  <!-- Left Vertical Accent Bar -->
+  <rect x="28" y="30" width="4" height="124" rx="2" fill="#0090FF" />
+
+  <!-- Prompt Header -->
+  <text x="48" y="46" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#7F8C8D">
+    <tspan fill="#43CDBD">blue</tspan><tspan fill="#7F8C8D">@</tspan><tspan fill="#BAD1FF">cachyos</tspan><tspan dx="6" fill="#7F8C8D">~ $</tspan><tspan dx="6" fill="#B5B6B6">whoami</tspan>
+  </text>
+
+  <!-- Main Handle -->
+  <text x="48" y="88" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="36" font-weight="700" letter-spacing="-0.5" fill="#FCFDFD">
+    BlueCatsz
+  </text>
+
+  <!-- Subtitle -->
+  <text x="48" y="116" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#B5B6B6">
+    Linux &amp; Proton Tooling  ·  Focused, CI-Verified Open-Source Fixes
+  </text>
+
+  <!-- Accent Divider -->
+  <rect x="48" y="130" width="520" height="2" rx="1" fill="url(#accent-line)" />
+
+  <!-- Tag Pills -->
+  <g transform="translate(48, 144)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" font-weight="600">
+    <rect x="0" y="0" width="134" height="24" rx="6" fill="#16181D" stroke="#383B47" stroke-width="1" />
+    <circle cx="14" cy="12" r="3.5" fill="#0090FF" />
+    <text x="25" y="16" fill="#FCFDFD">CachyOS / Arch</text>
+
+    <rect x="146" y="0" width="126" height="24" rx="6" fill="#16181D" stroke="#383B47" stroke-width="1" />
+    <circle cx="160" cy="12" r="3.5" fill="#43CDBD" />
+    <text x="171" y="16" fill="#FCFDFD">Python · Rust</text>
+
+    <rect x="284" y="0" width="150" height="24" rx="6" fill="#16181D" stroke="#383B47" stroke-width="1" />
+    <circle cx="298" cy="12" r="3.5" fill="#5F7DCD" />
+    <text x="309" y="16" fill="#FCFDFD">Proton / Wayland</text>
+  </g>
+</svg>
